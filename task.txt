@@ -1,1 +1,12 @@
-Hello, this is a textfile where i make changes to.
+Hello,
+this is your task:
+I was working on my project, but it doesnt work anymore. And i can't fix it
+I hope you can help me.
+I can provide you a guidence how you could find and fix my error:
+ - Use git bisect to find the point where the error occured
+    - (Mark the "HEAD" as git bisect bad)
+    - (Mark the first commit ever as git bisect good)
+
+- When you found the error, try to cherrypick the single python file into the head commit, because i want to keep this nice text file
+- You are allowed to use a GUI e.g. in IntelliJ
+- Make the fix into a seperate branch
